@@ -9,7 +9,7 @@
 
 <footer class="insta-footer">
   <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
-    <img src="/instalogobutton.png" alt="Instagram" class="insta-button" />
+<img src="/instalogobutton.png" alt="Instagram" class="insta-button" />
   </a>
 </footer>
 
