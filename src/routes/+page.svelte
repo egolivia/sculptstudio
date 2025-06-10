@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
-  padding-top: 7.5vh; /* Positionierung im oberen Drittel */
+  padding-top: 3.5vh; /* Positionierung im oberen Drittel */
 }
 
 .comingsoon-img {
@@ -46,5 +46,32 @@
 
 .insta-button:hover {
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .comingsoon-img {
+    width: 95vw;
+  }
+
+  .insta-button {
+    width: 200px;
+  }
+
+  .insta-footer {
+    bottom: 1cm;
+  }
+}
+
+@media (max-width: 480px) {
+  .comingsoon-img {
+    width: 100vw;
+  }
+
+  .insta-button {
+    width: 160px;
+  }
+
+  .insta-footer {
+    bottom: 0.5cm;
+  }
 }
 </style>
